@@ -1,0 +1,129 @@
+@media (min-width: 1280px) {
+  .wrapper {
+    margin-top: 14px;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25); } }
+
+@media (min-width: 768px) {
+  .wrapper {
+    max-width: 900px;
+    margin: 0 auto; }}
+
+.wrapper {
+  min-width: 320px;
+  text-align: center;}
+
+  header {
+    display: flex;
+    padding: 0;
+    background-color: #9B2222;
+     }
+
+@media (min-width: 768px) {
+  header {
+    display: flex;
+    padding: 29px 475px 13px 58px;
+    background-color: #9B2222; }}
+
+
+
+.wrapper__form {
+    text-align: left;
+    padding-top: 42px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+@media (min-width: 768px) {
+  .wrapper__form {
+    text-align: left;
+    padding-bottom: 100px;
+    padding-left: 77px;
+    padding-right: 10px;
+    padding-top: 42px;}}
+
+
+.wrapper__title-wrapper-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper__form-title {
+
+}
+
+.wrapper__form-date {
+  font-size: 16px;
+    font-weight: 600;}
+
+.wrapper__form-theme {
+  font-size: 16px;
+    font-weight: 600;}
+
+.wrapper__not-available {
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 100px;}
+
+.wrapper__success {
+  text-align: center;
+  padding-bottom: 100px;
+  padding-left: 180px;
+  padding-right: 180px;
+  padding-top: 100px;}
+
+.add-review__text {
+  display: flex;
+  flex-direction: column;
+}
+
+  .add-review__textarea {
+    display: block;
+    max-width: 516px;
+    background: none;
+    resize: vertical;
+    height: 122px;
+    min-height: 150px;
+    padding: 25px;
+    font-size: 17px;
+    border: 1px solid #D6DADE;
+    border-radius: 4px;
+    line-height: 24px; }
+    .add-review__textarea::-webkit-input-placeholder {
+      opacity: 1;
+      color: #252525; }
+    .add-review__textarea:-ms-input-placeholder {
+      opacity: 1;
+      color: #252525; }
+    .add-review__textarea::-ms-input-placeholder {
+      opacity: 1;
+      color: #252525; }
+    .add-review__textarea::placeholder {
+      opacity: 1;
+      color: #252525; }
+
+.form-control:focus{
+  border-color: #333333;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+
+.staff-poll__input {
+  max-width: 600px;
+  border: 1px solid #D6DADE;
+  border-radius: 4px;}
+
+  .custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #063A99;
+    background-color: #063A99;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #063A99;
+  border-color: #063A99;
+}
+

@@ -1,8 +1,6 @@
-# poll_front_reborn
-
-
 ## Getting Started
 
+```sh
 $ npm install
 $ npm run start
 ```
